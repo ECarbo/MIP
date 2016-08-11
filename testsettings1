@@ -17,9 +17,11 @@
 #logistic score should be at least 0.7
 -logistic_priority_score 0.7
 -logistic_optimal_score 0.9
--tag_sizes 8,0
+#changed to have UID at other side
+-tag_sizes 0,8
 -tabix tabix -f
--snp_file /hpc/cog_bioinf/data/flip/Sets/Reference/00-common_all.vcf.gz
+#SNP file before not hg19....
+-snp_file /hpc/cog_bioinf/common_dbs/dbSNP/dbSNP_144/common_all_20150605.vcf.gz
 -max_mip_overlap 25
 -double_tile_strands_separately off
 -starting_mip_overlap 4
