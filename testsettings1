@@ -20,7 +20,7 @@
 #changed to have UID at other side
 -tag_sizes 0,8
 -tabix tabix -f
-#SNP file before not hg19....
+#SNP file flip before not hg19....
 -snp_file /hpc/cog_bioinf/common_dbs/dbSNP/dbSNP_144/common_all_20150605.vcf.gz
 -max_mip_overlap 25
 -double_tile_strands_separately off
